@@ -25,5 +25,23 @@
     "district": "Dhaka",
     "upazila": "Dhaka",
     "role": "authority"
+  },
+  {
+    "email": "sh@gmail.com",
+    "password": "$2b$10$BYempOMKUzrDWEK/ysIiNeqN2cRCWKLH4XD2sl9X.g9AWlugLWF5.",
+    "fullName": "Shila",
+    "phone": "01243434344",
+    "district": "Khulna",
+    "upazila": "khulna",
+    "role": "user"
+  },
+  {
+    "email": "shaila@gmail.com",
+    "password": "$2b$10$BFxOj2nBjkxzOBQWmVhStOWjc2S4C8H01dvW4vTk0alZYXE4RNyIe",
+    "fullName": "shalia",
+    "phone": "0122343434",
+    "district": "Rajshahi",
+    "upazila": "Rajshahi",
+    "role": "user"
   }
 ]
