@@ -1,0 +1,29 @@
+[
+  {
+    "email": "t@gmail.com",
+    "password": "$2b$10$4orkS6ag80DJ0f9LGFLxb.5.2EijUzigV7ZYlIXJG0n3aQlfk9Vba",
+    "fullName": "t",
+    "phone": "013456786664",
+    "district": "dd",
+    "upazila": "ddd",
+    "role": "user"
+  },
+  {
+    "email": "admin@gmail.com",
+    "password": "$2b$10$4orkS6ag80DJ0f9LGFLxb.5.2EijUzigV7ZYlIXJG0n3aQlfk9Vba",
+    "fullName": "admin",
+    "phone": "013456786664",
+    "district": "dd",
+    "upazila": "ddd",
+    "role": "superadmin"
+  },
+  {
+    "email": "authority1@gmail.com",
+    "password": "$2b$10$RekSC/orAakNKAHdWE1KSeq4n6F/P4qC4PzNtzmej4vcPxnUIfnKC",
+    "fullName": "Authority1",
+    "phone": "01495867594",
+    "district": "Dhaka",
+    "upazila": "Dhaka",
+    "role": "authority"
+  }
+]
