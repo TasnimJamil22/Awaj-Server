@@ -30,8 +30,12 @@ router.post("/create-authority", authorizeRoles("superadmin"), (req, res) => {
   if (userExists) return res.status(400).json({ message: "Email already registered" });
 
   const hashedPassword = bcrypt.hashSync(password, 10);
+ // Generate numeric _id
+  const maxId = users.length > 0 ? Math.max(...users.map(u => parseInt(u._id))) : 0;
+  const newId = (maxId + 1).toString();
 
   const newUser = {
+      _id: newId,
     email,
     password: hashedPassword,
     fullName,

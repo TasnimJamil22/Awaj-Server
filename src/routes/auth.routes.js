@@ -1,5 +1,5 @@
 //Auth Routes (Register + Login + Role)
- import express from "express";
+import express from "express";
 import fs from "fs";
 import path from "path";
 import bcrypt from "bcryptjs";
@@ -31,13 +31,15 @@ router.post("/register", (req, res) => {
 
   // default role = user
   const newUser = {
+    _id: (users.length + 1).toString(), // simple auto increment
     email,
     password: hashedPassword,
     fullName,
     phone: phone || "",
     district: district || "",
     upazila: upazila || "",
-    role: "user"
+    role: "user",
+    suspended: false
   };
 
   users.push(newUser);
@@ -65,7 +67,7 @@ router.post("/login", (req, res) => {
 
   const token = jwt.sign({ email: user.email, role: user.role }, JWT_SECRET, { expiresIn: "1h" });
 
-  res.json({ token, email: user.email, fullName: user.fullName, role: user.role });
+  res.json({ token, email: user.email, fullName: user.fullName, role: user.role, assignedDistricts: user.assignedDistricts, district: user.district, });
 });
 
 export default router;

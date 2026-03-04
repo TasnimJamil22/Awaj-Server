@@ -6,7 +6,7 @@
     "category": "Infrastructure",
     "district": "Dhaka",
     "upazila": "Savar",
-    "status": "Submitted",
+    "status": "Closed",
     "statusHistory": [
       {
         "status": "Submitted",
@@ -15,6 +15,22 @@
       {
         "status": "Submitted",
         "updatedAt": "2026-02-27T18:12:25.601Z"
+      },
+      {
+        "status": "Under Review",
+        "updatedAt": "2026-02-28T10:08:39.233Z"
+      },
+      {
+        "status": "Investigation",
+        "updatedAt": "2026-03-02T08:46:39.113Z"
+      },
+      {
+        "status": "Action Taken",
+        "updatedAt": "2026-03-02T09:30:44.772Z"
+      },
+      {
+        "status": "Closed",
+        "updatedAt": "2026-03-02T10:04:19.908Z"
       }
     ],
     "createdBy": "user1@example.com",
@@ -54,6 +70,12 @@
         "author": "authority1@gmail.com",
         "role": "authority",
         "createdAt": "2026-02-27T19:17:48.276Z"
+      },
+      {
+        "text": "action was taken",
+        "author": "authority1@gmail.com",
+        "role": "authority",
+        "createdAt": "2026-02-28T10:08:56.513Z"
       }
     ]
   },
@@ -64,14 +86,14 @@
     "category": "Electricity",
     "district": "Chattogram",
     "upazila": "Pahartali",
-    "status": "Resolved",
+    "status": "Closed",
     "statusHistory": [
       {
         "status": "Submitted",
         "updatedAt": "2026-02-20T08:00:00.000Z"
       },
       {
-        "status": "Resolved",
+        "status": "Closed",
         "updatedAt": "2026-02-22T03:00:00.000Z"
       }
     ],
@@ -85,7 +107,7 @@
     "category": "Sanitation",
     "district": "Khulna",
     "upazila": "Sonadanga",
-    "status": "Submitted",
+    "status": "Closed",
     "statusHistory": [
       {
         "status": "Submitted",
@@ -94,6 +116,22 @@
       {
         "status": "Submitted",
         "updatedAt": "2026-02-27T18:11:37.878Z"
+      },
+      {
+        "status": "Under Review",
+        "updatedAt": "2026-03-02T09:30:37.229Z"
+      },
+      {
+        "status": "Investigation",
+        "updatedAt": "2026-03-02T09:37:43.957Z"
+      },
+      {
+        "status": "Action Taken",
+        "updatedAt": "2026-03-02T09:47:36.791Z"
+      },
+      {
+        "status": "Closed",
+        "updatedAt": "2026-03-02T10:05:09.333Z"
       }
     ],
     "createdBy": "user4@example.com",
@@ -176,14 +214,14 @@
     "category": "Infrastructure",
     "district": "Barishal",
     "upazila": "Kotwali",
-    "status": "Resolved",
+    "status": "Closed",
     "statusHistory": [
       {
         "status": "Submitted",
         "updatedAt": "2026-02-18T05:00:00.000Z"
       },
       {
-        "status": "Resolved",
+        "status": "Closed",
         "updatedAt": "2026-02-19T12:00:00.000Z"
       }
     ],
@@ -213,7 +251,15 @@
       }
     ],
     "createdBy": "user8@example.com",
-    "createdAt": "2026-02-27T01:00:00.000Z"
+    "createdAt": "2026-02-27T01:00:00.000Z",
+    "notes": [
+      {
+        "text": "It was rejected .",
+        "author": "authority1@gmail.com",
+        "role": "authority",
+        "createdAt": "2026-03-03T06:59:01.147Z"
+      }
+    ]
   },
   {
     "_id": "9",
@@ -293,7 +339,7 @@
     "category": "Electricity",
     "district": "Rangpur",
     "upazila": "Gangachara",
-    "status": "Submitted",
+    "status": "Rejected",
     "statusHistory": [
       {
         "status": "Submitted",
@@ -302,6 +348,14 @@
       {
         "status": "Submitted",
         "updatedAt": "2026-02-21T02:00:00.000Z"
+      },
+      {
+        "status": "Under Review",
+        "updatedAt": "2026-03-02T09:22:29.345Z"
+      },
+      {
+        "status": "Rejected",
+        "updatedAt": "2026-03-02T09:22:38.449Z"
       }
     ],
     "createdBy": "user12@example.com",
@@ -331,14 +385,14 @@
     "category": "Health",
     "district": "Jessore",
     "upazila": "Sadar",
-    "status": "Resolved",
+    "status": "Closed",
     "statusHistory": [
       {
         "status": "Submitted",
         "updatedAt": "2026-02-15T05:00:00.000Z"
       },
       {
-        "status": "Resolved",
+        "status": "Closed",
         "updatedAt": "2026-02-18T10:00:00.000Z"
       }
     ],
@@ -424,14 +478,14 @@
     "category": "Telecommunication",
     "district": "Feni",
     "upazila": "Daganbhuiyan",
-    "status": "Resolved",
+    "status": "Closed",
     "statusHistory": [
       {
         "status": "Submitted",
         "updatedAt": "2026-02-22T03:00:00.000Z"
       },
       {
-        "status": "Resolved",
+        "status": "Closed",
         "updatedAt": "2026-02-23T05:00:00.000Z"
       }
     ],
@@ -606,5 +660,920 @@
     "createdBy": "sh@gmail.com",
     "anonymous": false,
     "createdAt": "2026-02-27T19:34:59.075Z"
+  },
+  {
+    "_id": "28",
+    "title": "ererer",
+    "description": "err",
+    "category": "err",
+    "district": "errer",
+    "upazila": "erer",
+    "status": "Submitted",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "updatedAt": "2026-02-28T05:03:48.755Z"
+      }
+    ],
+    "createdBy": "shaila@gmail.com",
+    "anonymous": false,
+    "createdAt": "2026-02-28T05:03:48.755Z"
+  },
+  {
+    "_id": "29",
+    "title": "tt",
+    "description": "tt",
+    "category": "tt",
+    "district": "tt",
+    "upazila": "t",
+    "status": "Submitted",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "updatedAt": "2026-02-28T05:56:35.286Z"
+      }
+    ],
+    "createdBy": "Anonymous",
+    "anonymous": true,
+    "evidence": "/uploads/1772258195276-606440015.png",
+    "notes": [],
+    "createdAt": "2026-02-28T05:56:35.286Z"
+  },
+  {
+    "_id": "30",
+    "title": "rr",
+    "description": "rr",
+    "category": "rr",
+    "district": "rr",
+    "upazila": "r",
+    "status": "Submitted",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "updatedAt": "2026-02-28T05:58:19.824Z"
+      }
+    ],
+    "createdBy": "Anonymous",
+    "anonymous": true,
+    "evidence": "/uploads/1772258299807-249681537.png",
+    "notes": [],
+    "createdAt": "2026-02-28T05:58:19.824Z"
+  },
+  {
+    "_id": "31",
+    "title": "a",
+    "description": "a",
+    "category": "a",
+    "district": "a",
+    "upazila": "a",
+    "status": "Submitted",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "updatedAt": "2026-02-28T06:06:28.153Z"
+      }
+    ],
+    "createdBy": "shaila@gmail.com",
+    "anonymous": false,
+    "evidence": "/uploads/1772258788137-460068867.png",
+    "notes": [],
+    "createdAt": "2026-02-28T06:06:28.153Z"
+  },
+  {
+    "_id": "32",
+    "title": "aa",
+    "description": "aaaa",
+    "category": "aa",
+    "district": "aa",
+    "upazila": "aa",
+    "status": "Submitted",
+    "createdBy": "Anonymous",
+    "anonymous": true,
+    "evidence": "/uploads/1772272089237-859920799-Screenshot 2026-02-16 173644.png",
+    "createdAt": "2026-02-28T09:48:09.254Z"
+  },
+  {
+    "_id": "33",
+    "title": "a",
+    "description": "a",
+    "category": "a",
+    "district": "a",
+    "upazila": "a",
+    "status": "Submitted",
+    "createdBy": "Anonymous",
+    "anonymous": true,
+    "evidence": "/uploads/1772272235635-767973173-Screenshot 2026-02-24 134430.png",
+    "createdAt": "2026-02-28T09:50:35.646Z"
+  },
+  {
+    "_id": "34",
+    "title": "DRUG",
+    "description": "A person was related to drug.",
+    "category": "Health",
+    "district": "Dhaka",
+    "upazila": "Dhaka",
+    "status": "Closed",
+    "createdBy": "Anonymous",
+    "anonymous": true,
+    "evidence": "/uploads/1772272471528-576072377-Screenshot 2026-02-16 173644.png",
+    "createdAt": "2026-02-28T09:54:31.544Z",
+    "statusHistory": [
+      {
+        "status": "Under Review",
+        "updatedAt": "2026-03-02T10:04:15.250Z"
+      },
+      {
+        "status": "Investigation",
+        "updatedAt": "2026-03-03T07:03:56.362Z"
+      },
+      {
+        "status": "Action Taken",
+        "updatedAt": "2026-03-03T07:04:24.652Z"
+      },
+      {
+        "status": "Closed",
+        "updatedAt": "2026-03-03T07:05:06.098Z"
+      }
+    ]
+  },
+  {
+    "_id": "35",
+    "title": "aa",
+    "description": "aa",
+    "category": "aa",
+    "district": "aa",
+    "upazila": "aa",
+    "status": "Submitted",
+    "createdBy": "Anonymous",
+    "anonymous": true,
+    "evidence": "/uploads/1772272711572-720711220-Screenshot 2026-02-26 114310.png",
+    "createdAt": "2026-02-28T09:58:31.584Z"
+  },
+  {
+    "_id": "36",
+    "title": "f",
+    "description": "f",
+    "category": "f",
+    "district": "f",
+    "upazila": "f",
+    "status": "Submitted",
+    "createdBy": "Anonymous",
+    "anonymous": true,
+    "evidence": "/uploads/1772272764850-219932011-Screenshot 2026-02-26 114310.png",
+    "createdAt": "2026-02-28T09:59:24.859Z"
+  },
+  {
+    "_id": "37",
+    "title": "a",
+    "description": "a",
+    "category": "a",
+    "district": "a",
+    "upazila": "a",
+    "status": "Submitted",
+    "createdBy": "shaila@gmail.com",
+    "anonymous": false,
+    "evidence": "/uploads/1772272880778-377143940-Screenshot 2026-02-26 114310.png",
+    "createdAt": "2026-02-28T10:01:20.790Z"
+  },
+  {
+    "_id": "38",
+    "title": "Drug",
+    "description": "dff",
+    "category": "qdf",
+    "district": "fdf",
+    "upazila": "f",
+    "status": "Submitted",
+    "createdBy": "shaila@gmail.com",
+    "anonymous": false,
+    "evidence": "/uploads/1772273015537-313018726-Screenshot 2026-02-26 114310.png",
+    "createdAt": "2026-02-28T10:03:35.548Z"
+  },
+  {
+    "_id": "39",
+    "title": "a",
+    "description": "a",
+    "category": "a",
+    "district": "a",
+    "upazila": "a",
+    "status": "Submitted",
+    "createdBy": "anika@gmail.com",
+    "anonymous": false,
+    "evidence": "/uploads/1772273197138-626799594-Screenshot 2026-02-24 134430.png",
+    "createdAt": "2026-02-28T10:06:37.149Z"
+  },
+  {
+    "_id": "40",
+    "title": "bbb",
+    "description": "b",
+    "category": "bbb",
+    "district": "bb",
+    "upazila": "b",
+    "status": "Submitted",
+    "createdBy": "Anonymous",
+    "anonymous": true,
+    "evidence": "/uploads/1772273229422-197540594-Screenshot 2026-02-26 125250.png",
+    "createdAt": "2026-02-28T10:07:09.433Z"
+  },
+  {
+    "_id": "41",
+    "title": "A group of people having gambling",
+    "description": "This is a sample data with gambling compain",
+    "category": "Gambling",
+    "district": "Cumilla",
+    "upazila": "Muradnagar",
+    "status": "Submitted",
+    "createdBy": "habib@gmail.com",
+    "anonymous": false,
+    "evidence": "/uploads/1772273866437-229981784-Screenshot 2026-02-20 153053.png",
+    "createdAt": "2026-02-28T10:17:46.447Z"
+  },
+  {
+    "_id": "42",
+    "title": "qqq",
+    "description": "qqqq",
+    "category": "qqq",
+    "district": "Noakhali",
+    "upazila": "Noakhali",
+    "status": "Submitted",
+    "createdBy": "anika@gmail.com",
+    "anonymous": false,
+    "evidence": "/uploads/1772274076006-417965302-Screenshot 2026-02-26 114317.png",
+    "createdAt": "2026-02-28T10:21:16.017Z"
+  },
+  {
+    "_id": "43",
+    "title": "ttttt",
+    "description": "tttt",
+    "category": "ttt",
+    "district": "Sylhet",
+    "upazila": "Sylhet",
+    "status": "Closed",
+    "createdBy": "shaila@gmail.com",
+    "anonymous": false,
+    "evidence": "/uploads/1772274361542-175413257-Screenshot 2026-02-26 114317.png",
+    "createdAt": "2026-02-28T10:26:01.557Z",
+    "notes": [
+      {
+        "text": "we will take action very soon.",
+        "author": "sylhetadmin@gmail.com",
+        "role": "authority",
+        "createdAt": "2026-03-02T08:47:11.921Z"
+      }
+    ],
+    "statusHistory": [
+      {
+        "status": "Under Review",
+        "updatedAt": "2026-03-03T08:49:15.532Z"
+      },
+      {
+        "status": "Investigation",
+        "updatedAt": "2026-03-03T08:51:35.968Z"
+      },
+      {
+        "status": "Action Taken",
+        "updatedAt": "2026-03-03T08:53:34.183Z"
+      },
+      {
+        "status": "Closed",
+        "updatedAt": "2026-03-03T08:53:43.755Z"
+      }
+    ]
+  },
+  {
+    "_id": "44",
+    "title": "aa",
+    "description": "aa",
+    "category": "aa",
+    "district": "aa",
+    "upazila": "aa",
+    "status": "Submitted",
+    "createdBy": "Anonymous",
+    "anonymous": true,
+    "evidence": "/uploads/1772428194441-637394077-Screenshot 2026-02-26 125250.png",
+    "createdAt": "2026-03-02T05:09:54.453Z"
+  },
+  {
+    "_id": "45",
+    "title": "w",
+    "description": "w",
+    "category": "w",
+    "district": "w",
+    "upazila": "w",
+    "status": "Submitted",
+    "createdBy": "Anonymous",
+    "ownerEmail": "anika@gmail.com",
+    "anonymous": true,
+    "evidence": "/uploads/1772428296839-75758018-Screenshot 2026-02-26 114317.png",
+    "createdAt": "2026-03-02T05:11:36.853Z"
+  },
+  {
+    "_id": "46",
+    "title": "e",
+    "description": "e",
+    "category": "e",
+    "district": "e",
+    "upazila": "e",
+    "status": "Submitted",
+    "createdBy": "anika@gmail.com",
+    "ownerEmail": "anika@gmail.com",
+    "anonymous": false,
+    "evidence": "/uploads/1772428315539-344314144-Screenshot 2026-02-26 114317.png",
+    "createdAt": "2026-03-02T05:11:55.552Z"
+  },
+  {
+    "_id": "47",
+    "title": "v",
+    "description": "v",
+    "category": "v",
+    "district": "v",
+    "upazila": "v",
+    "status": "Submitted",
+    "createdBy": "Anonymous",
+    "ownerEmail": "anika@gmail.com",
+    "anonymous": true,
+    "evidence": null,
+    "createdAt": "2026-03-02T05:12:16.954Z"
+  },
+  {
+    "_id": "48",
+    "title": "s",
+    "description": "s",
+    "category": "s",
+    "district": "s",
+    "upazila": "s",
+    "status": "Submitted",
+    "createdBy": "Anonymous",
+    "ownerEmail": "anika@gmail.com",
+    "anonymous": true,
+    "evidence": "/uploads/1772428666791-222551084-Screenshot 2026-02-26 114317.png",
+    "createdAt": "2026-03-02T05:17:46.805Z"
+  },
+  {
+    "_id": "49",
+    "title": "d",
+    "description": "d",
+    "category": "d",
+    "district": "d",
+    "upazila": "d",
+    "status": "Submitted",
+    "createdBy": "Anonymous",
+    "ownerEmail": "anika@gmail.com",
+    "anonymous": true,
+    "evidence": "/uploads/1772428798489-820089408-Screenshot 2026-02-24 131551.png",
+    "createdAt": "2026-03-02T05:19:58.494Z"
+  },
+  {
+    "_id": "50",
+    "title": "a",
+    "description": "a",
+    "category": "a",
+    "district": "a",
+    "upazila": "a",
+    "status": "Submitted",
+    "createdBy": "Anonymous",
+    "ownerEmail": "t@gmail.com",
+    "anonymous": true,
+    "evidence": null,
+    "createdAt": "2026-03-02T05:20:41.544Z"
+  },
+  {
+    "_id": "51",
+    "title": "c",
+    "description": "c",
+    "category": "c",
+    "district": "c",
+    "upazila": "c",
+    "status": "Submitted",
+    "createdBy": "Anonymous",
+    "ownerEmail": "t@gmail.com",
+    "anonymous": true,
+    "evidence": null,
+    "createdAt": "2026-03-02T05:25:43.738Z"
+  },
+  {
+    "_id": "52",
+    "title": "z",
+    "description": "z",
+    "category": "z",
+    "district": "z",
+    "upazila": "z",
+    "status": "Submitted",
+    "createdBy": "Anonymous",
+    "ownerEmail": "t@gmail.com",
+    "anonymous": true,
+    "evidence": null,
+    "createdAt": "2026-03-02T05:26:33.691Z"
+  },
+  {
+    "_id": "53",
+    "title": "f",
+    "description": "f",
+    "category": "f",
+    "district": "f",
+    "upazila": "f",
+    "status": "Submitted",
+    "createdBy": "Anonymous",
+    "ownerEmail": "t@gmail.com",
+    "anonymous": true,
+    "evidence": null,
+    "createdAt": "2026-03-02T05:27:51.074Z"
+  },
+  {
+    "_id": "54",
+    "title": "cc",
+    "description": "cc",
+    "category": "cc",
+    "district": "cc",
+    "upazila": "cc",
+    "status": "Submitted",
+    "createdBy": "Anonymous",
+    "ownerEmail": "tisha@gmail.com",
+    "anonymous": true,
+    "evidence": "/uploads/1772429478394-743313107-Screenshot 2026-02-26 114317.png",
+    "createdAt": "2026-03-02T05:31:18.399Z"
+  },
+  {
+    "_id": "55",
+    "title": "vv",
+    "description": "v",
+    "category": "vv",
+    "district": "v",
+    "upazila": "v",
+    "status": "Submitted",
+    "createdBy": "tisha@gmail.com",
+    "ownerEmail": "tisha@gmail.com",
+    "anonymous": false,
+    "evidence": null,
+    "createdAt": "2026-03-02T05:31:36.827Z"
+  },
+  {
+    "_id": "56",
+    "title": "qq",
+    "description": "q",
+    "category": "q",
+    "district": "q",
+    "upazila": "q",
+    "status": "Submitted",
+    "createdBy": "Anonymous",
+    "ownerEmail": "tisha@gmail.com",
+    "anonymous": true,
+    "evidence": null,
+    "createdAt": "2026-03-02T05:35:18.850Z"
+  },
+  {
+    "_id": "57",
+    "title": "b",
+    "description": "b",
+    "category": "b",
+    "district": "b",
+    "upazila": "b",
+    "status": "Submitted",
+    "createdBy": "tisha@gmail.com",
+    "ownerEmail": "tisha@gmail.com",
+    "anonymous": false,
+    "evidence": null,
+    "createdAt": "2026-03-02T05:40:42.477Z"
+  },
+  {
+    "_id": "58",
+    "title": "f",
+    "description": "f",
+    "category": "f",
+    "district": "f",
+    "upazila": "f",
+    "status": "Submitted",
+    "createdBy": "tisha@gmail.com",
+    "ownerEmail": "tisha@gmail.com",
+    "anonymous": false,
+    "evidence": "/uploads/1772430720143-134187659-Screenshot 2026-02-26 114317.png",
+    "createdAt": "2026-03-02T05:52:00.149Z"
+  },
+  {
+    "_id": "59",
+    "title": "s",
+    "description": "s",
+    "category": "s",
+    "district": "s",
+    "upazila": "s",
+    "status": "Submitted",
+    "createdBy": "tisha@gmail.com",
+    "ownerEmail": "tisha@gmail.com",
+    "anonymous": false,
+    "evidence": null,
+    "createdAt": "2026-03-02T05:52:48.030Z"
+  },
+  {
+    "_id": "60",
+    "title": "ss",
+    "description": "dd",
+    "category": "dd",
+    "district": "d",
+    "upazila": "dd",
+    "status": "Submitted",
+    "createdBy": "tisha@gmail.com",
+    "ownerEmail": "tisha@gmail.com",
+    "anonymous": false,
+    "evidence": null,
+    "createdAt": "2026-03-02T05:53:57.531Z"
+  },
+  {
+    "_id": "61",
+    "title": "Street Light Not Working",
+    "description": "The street light near my house has not been working for over a week. It's very dark at night and unsafe.",
+    "category": "Infrastructure",
+    "district": "Sylhet",
+    "upazila": "Sylhet",
+    "status": "Closed",
+    "createdBy": "Anonymous",
+    "ownerEmail": "t@gmail.com",
+    "anonymous": true,
+    "evidence": "/uploads/1772440709247-522889500-Screenshot 2026-02-24 134430.png",
+    "createdAt": "2026-03-02T08:38:29.256Z",
+    "statusHistory": [
+      {
+        "status": "Under Review",
+        "updatedAt": "2026-03-03T08:51:18.655Z"
+      },
+      {
+        "status": "Investigation",
+        "updatedAt": "2026-03-03T08:53:12.117Z"
+      },
+      {
+        "status": "Action Taken",
+        "updatedAt": "2026-03-03T08:55:27.928Z"
+      },
+      {
+        "status": "Closed",
+        "updatedAt": "2026-03-03T08:56:31.253Z"
+      }
+    ]
+  },
+  {
+    "_id": "62",
+    "title": "Water Supply Issue in Neighborhood",
+    "description": "The water supply in our area has been inconsistent for the past 3 days. Residents are unable to get enough clean water for daily use.",
+    "category": "Public Utilities",
+    "district": "Rangpur",
+    "upazila": "Rangpur",
+    "status": "Under Review",
+    "createdBy": "anika@gmail.com",
+    "ownerEmail": "anika@gmail.com",
+    "anonymous": false,
+    "evidence": "/uploads/1772442929466-720931236-Screenshot 2026-02-20 153053.png",
+    "createdAt": "2026-03-02T09:15:29.478Z",
+    "statusHistory": [
+      {
+        "status": "Under Review",
+        "updatedAt": "2026-03-03T08:48:46.553Z"
+      }
+    ]
+  },
+  {
+    "_id": "63",
+    "title": "Uncollected Garbage Causing Health Issues",
+    "description": "Garbage has not been collected in our area for the past two weeks. The waste is piling up and creating a bad smell and attracting insects, which is affecting residents' health.",
+    "category": "Sanitation",
+    "district": "Barishal",
+    "upazila": "Barishal",
+    "status": "Under Review",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "updatedAt": "2026-03-03T05:38:08.671Z"
+      },
+      {
+        "status": "Under Review",
+        "updatedAt": "2026-03-03T05:40:02.362Z"
+      }
+    ],
+    "createdBy": "shaila@gmail.com",
+    "ownerEmail": "shaila@gmail.com",
+    "anonymous": false,
+    "evidence": "/uploads/1772516288668-65981538-Screenshot 2026-02-24 131551.png",
+    "createdAt": "2026-03-03T05:38:08.671Z"
+  },
+  {
+    "_id": "64",
+    "title": "a",
+    "description": "a",
+    "category": "Utilities",
+    "district": "Chattogram",
+    "upazila": "Rangunia",
+    "status": "Submitted",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "updatedAt": "2026-03-03T06:57:07.242Z"
+      }
+    ],
+    "createdBy": "Anonymous",
+    "ownerEmail": "shaila@gmail.com",
+    "anonymous": true,
+    "evidence": "/uploads/1772521027228-767535254-Screenshot 2026-02-26 125250.png",
+    "createdAt": "2026-03-03T06:57:07.242Z"
+  },
+  {
+    "_id": "65",
+    "title": "a",
+    "description": "aaa",
+    "category": "Transportation",
+    "district": "Dhaka",
+    "upazila": "Dohar",
+    "status": "Closed",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "updatedAt": "2026-03-03T07:00:11.800Z"
+      },
+      {
+        "status": "Under Review",
+        "updatedAt": "2026-03-03T07:00:33.658Z"
+      },
+      {
+        "status": "Investigation",
+        "updatedAt": "2026-03-03T07:03:39.473Z"
+      },
+      {
+        "status": "Action Taken",
+        "updatedAt": "2026-03-03T07:03:45.353Z"
+      },
+      {
+        "status": "Closed",
+        "updatedAt": "2026-03-03T07:04:02.507Z"
+      }
+    ],
+    "createdBy": "tisha@gmail.com",
+    "ownerEmail": "tisha@gmail.com",
+    "anonymous": false,
+    "evidence": null,
+    "createdAt": "2026-03-03T07:00:11.800Z",
+    "notes": [
+      {
+        "text": "authority has closed this complaint",
+        "author": "authority1@gmail.com",
+        "role": "authority",
+        "createdAt": "2026-03-03T07:06:18.522Z"
+      }
+    ]
+  },
+  {
+    "_id": "66",
+    "title": "aaaaaa",
+    "description": "aaaaaaaaa",
+    "category": "Sanitation",
+    "district": "Brahmanbaria",
+    "upazila": "Badhair",
+    "status": "Submitted",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "updatedAt": "2026-03-03T08:57:10.115Z"
+      }
+    ],
+    "createdBy": "shaila@gmail.com",
+    "ownerEmail": "shaila@gmail.com",
+    "anonymous": false,
+    "evidence": null,
+    "createdAt": "2026-03-03T08:57:10.115Z"
+  },
+  {
+    "_id": "67",
+    "title": "sssssss",
+    "description": "ssssssssssss",
+    "category": "Health",
+    "district": "Chattogram",
+    "upazila": "Rangunia",
+    "status": "Submitted",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "updatedAt": "2026-03-03T08:57:44.220Z"
+      }
+    ],
+    "createdBy": "shaila@gmail.com",
+    "ownerEmail": "shaila@gmail.com",
+    "anonymous": false,
+    "evidence": null,
+    "createdAt": "2026-03-03T08:57:44.220Z"
+  },
+  {
+    "_id": "68",
+    "title": "rrrrr",
+    "description": "qqq",
+    "category": "Education",
+    "district": "Barishal",
+    "upazila": "Babuganj",
+    "status": "Action Taken",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "updatedAt": "2026-03-03T08:58:40.958Z"
+      },
+      {
+        "status": "Under Review",
+        "updatedAt": "2026-03-03T08:59:07.934Z"
+      },
+      {
+        "status": "Investigation",
+        "updatedAt": "2026-03-03T08:59:25.071Z"
+      },
+      {
+        "status": "Action Taken",
+        "updatedAt": "2026-03-03T08:59:41.921Z"
+      }
+    ],
+    "createdBy": "shaila@gmail.com",
+    "ownerEmail": "shaila@gmail.com",
+    "anonymous": false,
+    "evidence": null,
+    "createdAt": "2026-03-03T08:58:40.958Z"
+  },
+  {
+    "_id": "69",
+    "title": "ss",
+    "description": "ssssssss",
+    "category": "Education",
+    "district": "Dhaka",
+    "upazila": "Dohar",
+    "status": "Under Review",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "updatedAt": "2026-03-04T06:37:47.339Z"
+      },
+      {
+        "status": "Under Review",
+        "updatedAt": "2026-03-04T08:36:48.912Z"
+      }
+    ],
+    "createdBy": "anika@gmail.com",
+    "ownerEmail": "anika@gmail.com",
+    "anonymous": false,
+    "evidence": null,
+    "createdAt": "2026-03-04T06:37:47.339Z"
+  },
+  {
+    "_id": "70",
+    "title": "fff",
+    "description": "ff",
+    "category": "Environment",
+    "district": "Dhaka",
+    "upazila": "Keraniganj",
+    "status": "Submitted",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "updatedAt": "2026-03-04T08:35:14.238Z"
+      }
+    ],
+    "createdBy": "anika@gmail.com",
+    "ownerEmail": "anika@gmail.com",
+    "anonymous": false,
+    "evidence": null,
+    "createdAt": "2026-03-04T08:35:14.238Z"
+  },
+  {
+    "_id": "71",
+    "title": "eee",
+    "description": "ee",
+    "category": "Education",
+    "district": "Gazipur",
+    "upazila": "Kaliakair",
+    "status": "Submitted",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "updatedAt": "2026-03-04T08:36:24.061Z"
+      }
+    ],
+    "createdBy": "anika@gmail.com",
+    "ownerEmail": "anika@gmail.com",
+    "anonymous": false,
+    "evidence": null,
+    "createdAt": "2026-03-04T08:36:24.061Z"
+  },
+  {
+    "_id": "72",
+    "title": "dd",
+    "description": "dd",
+    "category": "Public Safety",
+    "district": "Rajshahi",
+    "upazila": "Durgapur",
+    "status": "Investigation",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "updatedAt": "2026-03-04T08:41:59.752Z"
+      },
+      {
+        "status": "Under Review",
+        "updatedAt": "2026-03-04T08:43:46.768Z"
+      },
+      {
+        "status": "Investigation",
+        "updatedAt": "2026-03-04T08:43:54.212Z"
+      }
+    ],
+    "createdBy": "Anonymous",
+    "ownerEmail": "shaila@gmail.com",
+    "anonymous": true,
+    "evidence": "/uploads/1772613719748-131006358-Screenshot 2026-02-26 114317.png",
+    "createdAt": "2026-03-04T08:41:59.752Z"
+  },
+  {
+    "_id": "73",
+    "title": "rr",
+    "description": "rr",
+    "category": "Housing",
+    "district": "Sylhet",
+    "upazila": "Gowainghat",
+    "status": "Submitted",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "updatedAt": "2026-03-04T08:42:36.489Z"
+      }
+    ],
+    "createdBy": "shaila@gmail.com",
+    "ownerEmail": "shaila@gmail.com",
+    "anonymous": false,
+    "evidence": "/uploads/1772613756484-165406433-Screenshot 2026-02-24 131551.png",
+    "createdAt": "2026-03-04T08:42:36.489Z"
+  },
+  {
+    "_id": "74",
+    "title": "tt",
+    "description": "tttt",
+    "category": "Public Safety",
+    "district": "Gazipur",
+    "upazila": "Kapasia",
+    "status": "Submitted",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "updatedAt": "2026-03-04T08:43:03.620Z"
+      }
+    ],
+    "createdBy": "shaila@gmail.com",
+    "ownerEmail": "shaila@gmail.com",
+    "anonymous": false,
+    "evidence": null,
+    "createdAt": "2026-03-04T08:43:03.620Z"
+  },
+  {
+    "_id": "75",
+    "title": "ddd",
+    "description": "rrr",
+    "category": "Environment",
+    "district": "Comilla",
+    "upazila": "Muradnagar",
+    "status": "Closed",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "updatedAt": "2026-03-04T08:57:49.863Z"
+      },
+      {
+        "status": "Under Review",
+        "updatedAt": "2026-03-04T08:58:23.107Z"
+      },
+      {
+        "status": "Investigation",
+        "updatedAt": "2026-03-04T08:58:28.644Z"
+      },
+      {
+        "status": "Action Taken",
+        "updatedAt": "2026-03-04T08:58:32.644Z"
+      },
+      {
+        "status": "Closed",
+        "updatedAt": "2026-03-04T08:58:37.351Z"
+      }
+    ],
+    "createdBy": "anika@gmail.com",
+    "ownerEmail": "anika@gmail.com",
+    "anonymous": false,
+    "evidence": null,
+    "createdAt": "2026-03-04T08:57:49.863Z"
+  },
+  {
+    "_id": "76",
+    "title": "rr",
+    "description": "rrrr",
+    "category": "Corruption",
+    "district": "Comilla",
+    "upazila": "Meghna",
+    "status": "Submitted",
+    "statusHistory": [
+      {
+        "status": "Submitted",
+        "updatedAt": "2026-03-04T08:58:06.809Z"
+      }
+    ],
+    "createdBy": "anika@gmail.com",
+    "ownerEmail": "anika@gmail.com",
+    "anonymous": false,
+    "evidence": null,
+    "createdAt": "2026-03-04T08:58:06.809Z"
   }
 ]

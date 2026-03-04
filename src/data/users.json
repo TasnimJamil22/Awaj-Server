@@ -1,47 +1,188 @@
 [
   {
+    "_id": "1",
     "email": "t@gmail.com",
     "password": "$2b$10$4orkS6ag80DJ0f9LGFLxb.5.2EijUzigV7ZYlIXJG0n3aQlfk9Vba",
     "fullName": "t",
     "phone": "013456786664",
     "district": "dd",
     "upazila": "ddd",
-    "role": "user"
+    "role": "user",
+    "suspended": false
   },
   {
+    "_id": "2",
     "email": "admin@gmail.com",
     "password": "$2b$10$4orkS6ag80DJ0f9LGFLxb.5.2EijUzigV7ZYlIXJG0n3aQlfk9Vba",
     "fullName": "admin",
     "phone": "013456786664",
     "district": "dd",
     "upazila": "ddd",
-    "role": "superadmin"
+    "role": "superadmin",
+    "suspended": false
   },
   {
+    "_id": "3",
     "email": "authority1@gmail.com",
     "password": "$2b$10$RekSC/orAakNKAHdWE1KSeq4n6F/P4qC4PzNtzmej4vcPxnUIfnKC",
     "fullName": "Authority1",
     "phone": "01495867594",
     "district": "Dhaka",
     "upazila": "Dhaka",
-    "role": "authority"
+    "role": "authority",
+    "assignedDistricts": [
+      "Dhaka",
+      "Khulna",
+      "Rajshahi",
+      "Chittagong"
+    ],
+    "suspended": false
   },
   {
+    "_id": "4",
     "email": "sh@gmail.com",
     "password": "$2b$10$BYempOMKUzrDWEK/ysIiNeqN2cRCWKLH4XD2sl9X.g9AWlugLWF5.",
     "fullName": "Shila",
     "phone": "01243434344",
     "district": "Khulna",
     "upazila": "khulna",
-    "role": "user"
+    "role": "user",
+    "suspended": false
   },
   {
+    "_id": "5",
     "email": "shaila@gmail.com",
     "password": "$2b$10$BFxOj2nBjkxzOBQWmVhStOWjc2S4C8H01dvW4vTk0alZYXE4RNyIe",
     "fullName": "shalia",
     "phone": "0122343434",
     "district": "Rajshahi",
     "upazila": "Rajshahi",
-    "role": "user"
+    "role": "user",
+    "suspended": false
+  },
+  {
+    "_id": "6",
+    "email": "anika@gmail.com",
+    "password": "$2b$10$sS9ECSuuV08ncj5eQT6wKubcZ/ffSUO5mECEV3pI2SOKtrw1ujs3a",
+    "fullName": "anika",
+    "phone": "01233445666",
+    "district": "Dhaka",
+    "upazila": "Dhaka",
+    "role": "user",
+    "suspended": false
+  },
+  {
+    "_id": "7",
+    "email": "muradnagar@gmail.com",
+    "password": "$2b$10$WZY.4jPqceNywkuxJxRjLeXqGw1eZ1OfgRgZzBwlwRp.cvOk9gMii",
+    "fullName": "Muradnagar Admin",
+    "phone": "016868898589",
+    "district": "Comilla",
+    "upazila": "Muradnagar",
+    "role": "authority",
+    "assignedDistricts": [
+      "Comilla"
+    ],
+    "suspended": false
+  },
+  {
+    "_id": "8",
+    "email": "habib@gmail.com",
+    "password": "$2b$10$w5gHSDmv0ON8W7nh4SIVhOurYpz7wrc48J9X8CMmC5tWwNYilQiI6",
+    "fullName": "Md. Habibur Rahman",
+    "phone": "01686987878",
+    "district": "Cumilla",
+    "upazila": "Muradnagar",
+    "role": "user",
+    "suspended": false
+  },
+  {
+    "_id": "9",
+    "email": "noakhaliadmin@gmail.com",
+    "password": "$2b$10$oUR3W1YFv1z041q2H2YEDuGF718ChtTJpqW9FVGySjFivldpSQdw2",
+    "fullName": "NoakhaliAdmin",
+    "phone": "012345566666",
+    "district": "Noakhali",
+    "upazila": "Noakhali",
+    "role": "user",
+    "suspended": false
+  },
+  {
+    "_id": "10",
+    "email": "sylhetadmin@gmail.com",
+    "password": "$2b$10$WSDdR/kahm7rFO8sJNHYUeFuFCtuM8bUrYAuMnfad3gWomlHyhMTu",
+    "fullName": "SylhetAdmin",
+    "phone": "0123456666666",
+    "district": "Sylhet",
+    "upazila": "Sylhet",
+    "role": "authority",
+    "assignedDistricts": [
+      "Sylhet"
+    ],
+    "suspended": false
+  },
+  {
+    "_id": "11",
+    "email": "tisha@gmail.com",
+    "password": "$2b$10$UbT5u86SByjiD3cn9GqPoOPvaCL8vNGAtQBiCfcPKn2ZQJmf6gHHa",
+    "fullName": "Tisha",
+    "phone": "0123232332233",
+    "district": "Rajshahi",
+    "upazila": "Rajshahi",
+    "role": "user",
+    "suspended": false
+  },
+  {
+    "_id": "12",
+    "email": "khulnaadmin@gmail.com",
+    "password": "$2b$10$Nxk9Tokp1Jo7mra5UBNBKumHIF6aXAj3QtoDFyuczwIMrJaGB1gYK",
+    "fullName": "KhulnaAdmin",
+    "phone": "0128474747366",
+    "district": "Khulna",
+    "upazila": "khulna",
+    "role": "authority",
+    "assignedDistricts": [
+      "Khulna"
+    ],
+    "suspended": false
+  },
+  {
+    "_id": "13",
+    "email": "barisaladmin@gmail.com",
+    "password": "$2b$10$aWqnYEXoADDOmlMytV50r.dTPIs3CEP9RW/1nWgNz4JzvMiO2PNyG",
+    "fullName": "Barishal",
+    "phone": "012345666655",
+    "district": "Barishal",
+    "upazila": "Barishal",
+    "role": "authority",
+    "assignedDistricts": [
+      "Barishal"
+    ],
+    "suspended": false
+  },
+  {
+    "_id": "14",
+    "email": "rangpuradmin@gmail.com",
+    "password": "$2b$10$nZCii3EWU4O1lUd9NXFJmOLmN3IryvgQEYzWRBtyt778rJJ.BbJI2",
+    "fullName": "Rangpur Admin",
+    "phone": "0134343434",
+    "district": "Rangpur",
+    "upazila": "Rangpur",
+    "role": "authority",
+    "assignedDistricts": [
+      "Rangpur"
+    ],
+    "suspended": false
+  },
+  {
+    "_id": "15",
+    "email": "hena@gmail.com",
+    "password": "$2b$10$/QoiofC.ngEj4kbA4pfToOl0Mg0ujJxhavIyLdimpFBCxz356p4UK",
+    "fullName": "hena",
+    "phone": "0123443344343",
+    "district": "Rajshahi",
+    "upazila": "Rajshahi",
+    "role": "user",
+    "suspended": false
   }
 ]

@@ -1,0 +1,77 @@
+[
+  {
+    "_id": "2",
+    "name": "Utilities",
+    "description": "Water, electricity, gas supply problems."
+  },
+  {
+    "_id": "3",
+    "name": "Health",
+    "description": "Hospitals, clinics, medical services"
+  },
+  {
+    "_id": "4",
+    "name": "Sanitation",
+    "description": "Garbage collection, drainage, sewerage issues"
+  },
+  {
+    "_id": "5",
+    "name": "Public Safety",
+    "description": "Crime, harassment, unsafe areas"
+  },
+  {
+    "_id": "6",
+    "name": "Transportation",
+    "description": "Public transport, traffic congestion, signals"
+  },
+  {
+    "_id": "7",
+    "name": "Environment",
+    "description": "Air pollution, noise pollution, illegal dumping"
+  },
+  {
+    "_id": "8",
+    "name": "Education",
+    "description": "Schools, colleges, education facilities"
+  },
+  {
+    "_id": "9",
+    "name": "Housing",
+    "description": "Illegal construction, housing problems"
+  },
+  {
+    "_id": "10",
+    "name": "Digital Services",
+    "description": "Government websites, online service issues"
+  },
+  {
+    "_id": "11",
+    "name": "Corruption",
+    "description": "Bribery, misuse of authority"
+  },
+  {
+    "_id": "12",
+    "name": "Social Welfare",
+    "description": "Relief programs, public assistance issues"
+  },
+  {
+    "_id": "13",
+    "name": "Water Logging",
+    "description": "Flooding and drainage blockage"
+  },
+  {
+    "_id": "14",
+    "name": "Street Lighting",
+    "description": "Broken or missing street lights"
+  },
+  {
+    "_id": "15",
+    "name": "aa",
+    "description": "aa"
+  },
+  {
+    "_id": "15",
+    "name": "aa",
+    "description": "aa"
+  }
+]
